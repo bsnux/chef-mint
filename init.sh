@@ -5,5 +5,5 @@
 #-----------------------------------------------------
 
 apt-get install -y ruby1.9.1 rubygems
-gem install chef
+/usr/bin/gem1.9.1 install chef
 
