@@ -4,12 +4,11 @@ package 'build-essential'
 package 'vim-gtk'
 package 'exuberant-ctags'
 package 'ack'
-package 'meld'
-package 'python-pip'
+#package 'python-pip'
 
 # Development libraries
-package 'mysql-devel'
-package 'python-devel'
+#package 'libmysqlclient-dev'
+package 'python2.7-dev'
 
 # Web servers
 package 'nginx'
