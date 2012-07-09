@@ -1,43 +1,45 @@
 package 'build-essential'
+package 'gcc'
+package 'g++'
 
 # Development tools
 package 'vim-gtk'
 package 'exuberant-ctags'
 package 'ack'
-#package 'python-pip'
+package 'python-pip'
 
 # Development libraries
-#package 'libmysqlclient-dev'
+package 'libmysqlclient-dev'
 package 'python2.7-dev'
 
 # Web servers
 package 'nginx'
-package 'httpd'
+package 'apache2'
 
-# Web stack
+## Web stack
 package 'memcached'
 
-# SCM
+## SCM
 package 'subversion'
 package 'git'
 package 'mercurial'
 
-# Productivity tools
+## Productivity tools
 package 'empathy'
 package 'irssi'
 package 'clamav'
 
-# Sysadmin tools
+## Sysadmin tools
 package 'nmap'
 package 'traceroute'
 package 'curl'
 package 'screen'
 
-# Databases
+## Databases
 package 'postgresql'
 package 'postgresql-client'
-package 'mysql'
+package 'mysql-server'
 package 'mysql-client'
-package 'redis'
+package 'redis-server'
 package 'mongodb'
 package 'mongodb-server'

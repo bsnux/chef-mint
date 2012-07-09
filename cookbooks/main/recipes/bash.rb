@@ -1,6 +1,6 @@
-template '/tmp/bashrc' do
+template '/home/bsnux/.bashrc' do
   source 'bash.erb'
   mode '644'
-  owner 'arturo'
-  group 'arturo'
+  owner 'bsnux'
+  group 'bsnux'
 end

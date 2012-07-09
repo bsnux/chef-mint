@@ -9,6 +9,8 @@ fi
 
 alias ls='ls -h --color=auto'
 
+alias ll='ls -l --color=auto'
+
 # Mem. processes
 alias mempro="ps -u bsnux -o rss,comm"
 
@@ -30,7 +32,7 @@ alias dbshell="python manage.py dbshell"
 
 # virtualenv and virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
-source /usr/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper.sh
 
 # Git stuff
 alias gst='git status'
@@ -58,7 +60,7 @@ PS4='+ '
 proml
 
 # auto-completion for git commands
-source /usr/share/doc/git/contrib/completion/git-completion.bash
+source /etc/bash_completion.d/git
 
 # Ruby Version Manager: Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
