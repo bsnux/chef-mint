@@ -42,7 +42,9 @@ alias glog='git log'
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gdiff='git diff'
 alias gp='git pull'
-alias git="git-achievements"
+
+PATH="$PATH:$HOME/dev/git-achievements"
+alias git='git-achievements'
 
 # Displaying git branch inside prompt
 function parse_git_branch {
