@@ -14,6 +14,8 @@ end
 
 repos.each do |repo|
   git 'Clone repo' do
+    user 'bsnux'
+    group 'bsnux'
     repository git_url + repo
     reference 'master'
     action :checkout
