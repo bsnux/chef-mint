@@ -1,7 +1,7 @@
 chef-mint
 ================
 
-A set of recipes to provision your [Linux Mint](http://linuxmint.com) workstation using [Chef](http://www.opscode.com/chef/).
+A set of recipes to provision my [Linux Mint](http://linuxmint.com) workstation using [Chef](http://www.opscode.com/chef/).
 
 The recipes used in this project installing and configuring useful software for machines used for **software development**. Despite *chef* allows you to work with different operating system, [chef-mint](http://github.com/bsnux/chef-mint) is focused on [Linux Mint](http://linuxmint.com) Linux distro.
 
@@ -9,7 +9,7 @@ The recipes used in this project installing and configuring useful software for 
 
 [OPSCODE](http://www.opscode.com/chef/) offers a complete set of independient operating system recipes. However, the objective of *chef-mint* is to get focus on [Linux Mint](http://linuxmint.com) operating system, saving lines of code and simplifying the provisioning process.
 
-Keep in mind *bsnux* user is used by default. Please, use your own user changing templates provided by *chef-mint*.
+Keep in mind *chef-mint* is using my own user and specific configuration. However, it's easy to change templates for using your own configuration.
 
 Requirements
 ------------
