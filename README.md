@@ -30,7 +30,7 @@ Usage
 
     $ cd chef-mint
 
-    $ chef-solo -c solo.rb -j solo.json
+    $ sudo chef-solo -c solo.rb -j solo.json
 
 See also
 ---------
