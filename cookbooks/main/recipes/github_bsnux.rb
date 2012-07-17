@@ -17,7 +17,6 @@ repos.each do |repo|
     user 'bsnux'
     group 'bsnux'
     repository git_url + repo
-    reference 'master'
     action :checkout
     destination dev_dir + repo
   end
