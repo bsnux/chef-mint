@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #-----------------------------------------------------
-# Execute this script as 'root' for installing Chef
+# Execute this script as 'root' to install Chef
 #-----------------------------------------------------
 
 apt-get install -y ruby1.9.1 ruby1.9.1-dev rubygems
