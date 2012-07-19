@@ -5,7 +5,7 @@ package 'g++'
 # Development tools
 package 'vim-gtk'
 package 'exuberant-ctags'
-package 'ack'
+package 'ack-grep'
 package 'python-pip'
 
 # Development libraries
