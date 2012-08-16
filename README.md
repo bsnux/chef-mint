@@ -25,7 +25,9 @@ Installation
 
     $ sudo ./init.sh
 
-3. Ready!
+3. Edit solo.json change user parameters in order to match your local configuration
+
+4. Ready!
 
 Usage
 -----

@@ -1,10 +1,10 @@
 # Create 'scripts' and populate it with some useful scripts
 
-scripts_dir = '/home/bsnux/scripts/'
+scripts_dir = node['user']['default']['home_directory'] + 'scripts/'
 
 directory scripts_dir do
-  owner 'bsnux'
-  group 'bsnux'
+  owner node['user']['default']['username']
+  group node['user']['default']['username']
   mode '0755'
   action :create
 end
@@ -12,13 +12,13 @@ end
 template scripts_dir + 'django_tags.sh' do
   source 'django_tags.erb'
   mode '755'
-  owner 'bsnux'
-  group 'bsnux'
+  owner node['user']['default']['username']
+  group node['user']['default']['username']
 end
 
 template scripts_dir + 'django_completion.sh' do
   source 'django_completion.erb'
   mode '755'
-  owner 'bsnux'
-  group 'bsnux'
+  owner node['user']['default']['username']
+  group node['user']['default']['username']
 end
