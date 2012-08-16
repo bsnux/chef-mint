@@ -25,7 +25,7 @@ Installation
 
     $ sudo ./init.sh
 
-3. Edit solo.json change user parameters in order to match your local configuration
+3. Edit *solo.json* file and change default username and directory.
 
 4. Ready!
 
