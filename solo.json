@@ -2,8 +2,8 @@
     "run_list": [ "recipe[main::default]" ],
     "user": {
         "default": {
-            "username": "manuel",
-            "home_directory": "/home/manuel/"
+            "username": "bsnux",
+            "home_directory": "/home/bsnux/"
         }
     }
 }
