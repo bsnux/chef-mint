@@ -34,6 +34,7 @@ package 'nmap'
 package 'traceroute'
 package 'curl'
 package 'screen'
+package 'pwgen'
 
 ## Databases
 package 'postgresql'
