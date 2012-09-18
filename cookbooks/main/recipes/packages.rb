@@ -28,6 +28,7 @@ package 'mercurial'
 package 'empathy'
 package 'irssi'
 package 'clamav'
+package 'tree'
 
 ## Sysadmin tools
 package 'nmap'
