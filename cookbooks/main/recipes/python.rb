@@ -1,4 +1,4 @@
-python_packages = ['virtualenvwrapper', 'ipdb', 'ipython']
+python_packages = ['virtualenvwrapper', 'ipdb', 'ipython', 'pep8']
 
 python_packages.each do |python_package|
   execute 'install python packages' do
