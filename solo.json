@@ -3,7 +3,9 @@
     "user": {
         "default": {
             "username": "bsnux",
-            "home_directory": "/home/bsnux/"
+            "home_directory": "/home/bsnux/",
+            "git_username": "Arturo Fernandez",
+            "git_email": "arturo@bsnux.com"
         }
     }
 }
