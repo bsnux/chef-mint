@@ -21,8 +21,3 @@ repos.each do |repo|
     destination dev_dir + repo
   end
 end
-
-execute 'set-up git achievements' do
-  command 'git config --global achievement.upload "true"'
-  action :run
-end
