@@ -29,6 +29,7 @@ package 'empathy'
 package 'irssi'
 package 'clamav'
 package 'tree'
+package 'terminator'
 
 ## Sysadmin tools
 package 'nmap'
