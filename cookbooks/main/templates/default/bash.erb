@@ -46,6 +46,14 @@ alias gp='git pull'
 PATH="$PATH:$HOME/dev/git-achievements"
 alias git='git-achievements'
 
+# My TODO stuff
+if [ -f /opt/todo.txt_cli-2.9/todo.sh ]; then
+    alias todo='/opt/todo.txt_cli-2.9/todo.sh -d ~/Dropbox/todos/todo.cfg'
+fi
+
+# Getting date
+alias now='date "+%Y-%m-%d_%H-%M-%S"'
+
 # Displaying git branch inside prompt
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
