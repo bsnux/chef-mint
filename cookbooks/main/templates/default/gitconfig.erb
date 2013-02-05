@@ -3,12 +3,13 @@
   email = <%= node["user"]["git_email"] %>
 
 [core]
-  editor = vim
+  editor = sublime_text
 
 [color]
   ui = true
   diff = auto
   status = auto
+  branch = auto
 
 [color "branch"]
   current = yellow reverse
@@ -27,4 +28,33 @@
   untracked = cyan
 
 [merge]
-  tool = gvimdiff
+  tool = kdiff3
+
+[alias]
+  # Basic
+  co = checkout
+  ci = commit -m
+  cl = clone
+  amend = commit --amend
+  p = pull
+  diff = diff --word-diff
+  dlc = diff --cached HEAD^
+
+  # Log
+  le = log --oneline --decorate
+  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+  ls1 = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+  lds = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
+  ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+
+  # Reset
+  r = reset
+  r1 = reset HEAD^
+  r2 = reset HEAD^^
+  rh = reset --hard
+  rh1 = reset HEAD^ --hard
+  rh2 = reset HEAD^^ --hard
+
+  # Tags
+  lasttag = describe --tags --abbrev=0
+  lt = describe --tags --abbrev=0
